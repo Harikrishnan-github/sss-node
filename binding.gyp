@@ -2,8 +2,8 @@
   "targets": [
     {
       "target_name": "shamirsecretsharing",
-      "cflags": ["-g", "-Wall", "-Wno-sign-compare"],
-      "cflags_cc": ["-g", "-Wall", "-fexceptions"],
+      "cflags": ["-g", "-Wall", "-march=native", "-Wno-sign-compare"],
+      "cflags_cc": ["-g", "-Wall", "-march=native", "-fexceptions"],
       "sources": [
         "shamirsecretsharing.cc",
         "sss/randombytes/randombytes.c",
